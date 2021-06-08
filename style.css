@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    background-color:#00688B;
+    font-family: 'Open Sans';
+  }
+  
+  section {
+    -webkit-box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59); 
+    box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    margin-top: 185px;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black; 
+    border-radius: 5px;
+  }
+  
+  section h1 {
+    font-size: 20px;
+  }
+  
+  header{
+    background-image: url('https://img.ibxk.com.br/2020/09/24/24122238727440.jpg?w=1120&h=420&mode=crop&scale=both');
+    background-size: cover;
+    height: 90px;
+    border-radius: 5px;
+  }
+  
+  div {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    /* propriedade visual = valor */
+    background-color: #bac3d6;
+  }
+  
+  img {
+    width: 155px;
+    height: 155px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(-45%);
+    border: 10px solid white;
+  }
